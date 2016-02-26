@@ -1,0 +1,19 @@
+{
+  "name": "xml.formatter",
+  "description": "XML formatter",
+  "repository": "https://github.com/vertex/xml.formatter",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "bower cache clear": "bower cache clean",
+    "bower install --force": "bower install --force",
+    "bower prune": "bower prune",
+
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1",
+
+    "pretest": "npm install"
+  }
+}

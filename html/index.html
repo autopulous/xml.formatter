@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XML Parser</title>
+    <script src="../bower_components/autopulous-xml/xml.js"></script>
+    <script src="../bower_components/autopulous-xml/xml.load.js"></script>
+    <script src="../xml.formatter.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/xml.formatter.css"/>
+</head>
+<body>
+<form onsubmit="return false">
+    <label for="url">XML file URL</label><br>
+    <select id="url" class="long">
+        <option value="../test/resources/GetUserResponse.xml">GetUserResponse.xml</option>
+        <option value="../test/resources/AddTransformationRuleResponse.xml">AddTransformationRuleResponse.xml</option>
+        <option value="../test/resources/FindDimensionMemberKeysAllLRResponse.xml">FindDimensionMemberKeysAllLRResponse.xml</option>
+    </select><br>
+    <label for="root">Element reference (comma separated node path from #document)</label><br>
+    <input type="text" class="long" id="root" value=""/><br>
+    <label for="submit"></label><br>
+    <input type="submit" id="submit" onclick="formatXml()"/>
+</form>
+<br>
+<div id="elementTable"></div>
+
+</body>
+</html>

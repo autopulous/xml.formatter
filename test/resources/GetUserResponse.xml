@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns80:GetUserResponse xmlns:ns7="urn:vertexinc:etms:system:rba:1:0"
+                              xmlns:ns80="urn:vertexinc:etms:system:rba:messages:1:0">
+            <ns7:User countOfBIUsers="3">
+                <ns7:UserKey userId="101" userName="john.hart@vertexinc.com"/>
+                <ns7:Password>2cecf556f4aed951cbc914ad9248070a8205c1a7</ns7:Password>
+                <ns7:Email>john.hart@vertexinc.com</ns7:Email>
+                <ns7:FullName>Neoheurist</ns7:FullName>
+                <ns7:Description>John Hart's account</ns7:Description>
+                <ns7:Locked>false</ns7:Locked>
+                <ns7:Deleted>false</ns7:Deleted>
+                <ns7:PasswordExpires>false</ns7:PasswordExpires>
+                <ns7:ForcePasswordChange>false</ns7:ForcePasswordChange>
+                <ns7:RoleSummary>
+                    <ns7:RoleKey roleId="1" roleName="Vertex Provision Administrator"/>
+                    <ns7:RoleName>Vertex Provision Administrator</ns7:RoleName>
+                    <ns7:Description>Vertex Provision Administrator</ns7:Description>
+                    <ns7:Enabled>true</ns7:Enabled>
+                    <ns7:ReadOnly>false</ns7:ReadOnly>
+                    <ns7:CountOfUsers>0</ns7:CountOfUsers>
+                </ns7:RoleSummary>
+                <ns7:RoleSummary>
+                    <ns7:RoleKey roleId="3" roleName="Vertex Provision User"/>
+                    <ns7:RoleName>Vertex Provision User</ns7:RoleName>
+                    <ns7:Description>Vertex Provision User</ns7:Description>
+                    <ns7:Enabled>true</ns7:Enabled>
+                    <ns7:ReadOnly>false</ns7:ReadOnly>
+                    <ns7:CountOfUsers>0</ns7:CountOfUsers>
+                </ns7:RoleSummary>
+                <ns7:RoleSummary>
+                    <ns7:RoleKey roleId="14" roleName="Vertex Direct Tax Data Warehouse Data Steward"/>
+                    <ns7:RoleName>Vertex Direct Tax Data Warehouse Data Steward</ns7:RoleName>
+                    <ns7:Description>Vertex Direct Tax Data Warehouse Data Steward</ns7:Description>
+                    <ns7:Enabled>true</ns7:Enabled>
+                    <ns7:ReadOnly>false</ns7:ReadOnly>
+                    <ns7:CountOfUsers>0</ns7:CountOfUsers>
+                </ns7:RoleSummary>
+                <ns7:RoleSummary>
+                    <ns7:RoleKey roleId="15" roleName="Vertex Direct Tax Data Warehouse Data Provider"/>
+                    <ns7:RoleName>Vertex Direct Tax Data Warehouse Data Provider</ns7:RoleName>
+                    <ns7:Description>Vertex Direct Tax Data Warehouse Data Provider</ns7:Description>
+                    <ns7:Enabled>true</ns7:Enabled>
+                    <ns7:ReadOnly>false</ns7:ReadOnly>
+                    <ns7:CountOfUsers>0</ns7:CountOfUsers>
+                </ns7:RoleSummary>
+                <ns7:RoleSummary>
+                    <ns7:RoleKey roleId="20" roleName="Vertex Direct Tax Data Warehouse Administrator"/>
+                    <ns7:RoleName>Vertex Direct Tax Data Warehouse Administrator</ns7:RoleName>
+                    <ns7:Description>Vertex Direct Tax Data Warehouse Administrator</ns7:Description>
+                    <ns7:Enabled>true</ns7:Enabled>
+                    <ns7:ReadOnly>false</ns7:ReadOnly>
+                    <ns7:CountOfUsers>0</ns7:CountOfUsers>
+                </ns7:RoleSummary>
+                <ns7:RoleSummary>
+                    <ns7:RoleKey roleId="31" roleName="Vertex Enterprise Administrator"/>
+                    <ns7:RoleName>Vertex Enterprise Administrator</ns7:RoleName>
+                    <ns7:Description>Vertex Enterprise Administrator</ns7:Description>
+                    <ns7:Enabled>true</ns7:Enabled>
+                    <ns7:ReadOnly>false</ns7:ReadOnly>
+                    <ns7:CountOfUsers>0</ns7:CountOfUsers>
+                </ns7:RoleSummary>
+            </ns7:User>
+        </ns80:GetUserResponse>
+    </SOAP-ENV:Body>
+
+</SOAP-ENV:Envelope>

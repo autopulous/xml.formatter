@@ -1,0 +1,17 @@
+{
+  "name": "xml.formatter",
+  "description": "XML formatter",
+  "homepage": "http://www.vertexinc.com",
+  "license": "MIT",
+  "private": false,
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "XML"
+  ],
+  "dependencies": {
+    "autopulous-xml": "1.0"
+  }
+}

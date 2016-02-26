@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns100:AddTransformationRuleResponse xmlns:ns100="urn:vertexinc:enterprise:platform:transformationrule:messages:1:0"
+                                             xmlns:ns16="urn:vertexinc:enterprise:platform:transformationrule:1:0"
+                                             xmlns:ns3="urn:vertexinc:enterprise:suite:dimension:1:0">
+            <ns16:TransformationRule>
+                <ns16:TransformationRuleKey ruleId="2000202">
+                    <ns16:Code>123</ns16:Code>
+                    <ns16:DisplayLabel>khjk</ns16:DisplayLabel>
+                </ns16:TransformationRuleKey>
+                <ns16:TransformationRuleType>IMPORT</ns16:TransformationRuleType>
+                <ns16:Description>11111</ns16:Description>
+                <ns16:ReadOnlyIndicator>false</ns16:ReadOnlyIndicator>
+                <ns16:PublishedIndicator>true</ns16:PublishedIndicator>
+                <ns16:StartDate>1900-01-01</ns16:StartDate>
+                <ns16:EndDate>9999-12-31</ns16:EndDate>
+                <ns16:TableSetDimMemberKey dimensionMemberId="75">
+                    <ns3:DimensionKey dimensionId="123"/>
+                    <ns3:DisplayLabel>Oracle R12 GL Import AccountBalance</ns3:DisplayLabel>
+                </ns16:TableSetDimMemberKey>
+                <ns16:ConnectorOperationList>
+                    <ns16:ConnectorOperation>
+                        <ns16:OperationDimMemberKey dimensionMemberId="2">
+                            <ns3:DimensionKey dimensionId="316"/>
+                            <ns3:DisplayLabel>Copy</ns3:DisplayLabel>
+                        </ns16:OperationDimMemberKey>
+                        <ns16:CopyOperation>
+                            <ns16:SourceColumnKey>
+                                <ns16:TableKey>
+                                    <ns16:Code>ORC1ACCOUNTBALANCEIMP_I</ns16:Code>
+                                </ns16:TableKey>
+                                <ns16:DisplayLabel>Account Balance Amount</ns16:DisplayLabel>
+                                <ns16:Code>ACCOUNT_BALANCE_AMOUNT</ns16:Code>
+                                <ns16:ColumnTypeDimMemberKey dimensionMemberId="1">
+                                    <ns3:DimensionKey dimensionId="0"/>
+                                </ns16:ColumnTypeDimMemberKey>
+                            </ns16:SourceColumnKey>
+                            <ns16:TargetColumnKey required="true">
+                                <ns16:TableKey>
+                                    <ns16:Code>ACCOUNTBALANCE_S</ns16:Code>
+                                </ns16:TableKey>
+                                <ns16:DisplayLabel>Account Balance Amount</ns16:DisplayLabel>
+                                <ns16:Code>ACCTBALANCEAMOUNT</ns16:Code>
+                                <ns16:ColumnTypeDimMemberKey dimensionMemberId="1">
+                                    <ns3:DimensionKey dimensionId="0"/>
+                                </ns16:ColumnTypeDimMemberKey>
+                                <ns16:precision>18</ns16:precision>
+                                <ns16:scale>3</ns16:scale>
+                            </ns16:TargetColumnKey>
+                            <ns16:Scaling>1.0</ns16:Scaling>
+                        </ns16:CopyOperation>
+                    </ns16:ConnectorOperation>
+                </ns16:ConnectorOperationList>
+            </ns16:TransformationRule>
+        </ns100:AddTransformationRuleResponse>
+    </SOAP-ENV:Body>
+
+</SOAP-ENV:Envelope>

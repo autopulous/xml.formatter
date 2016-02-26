@@ -1,0 +1,66 @@
+table {
+    border-collapse: collapse;
+}
+
+input.long {
+    width: 500px;
+}
+
+input.short {
+    width: 30px;
+}
+
+label {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+tr {
+    height: 20px;
+}
+
+tr.anchor {
+    height: 0;
+}
+
+tr.source {
+    background-color: fuchsia;
+}
+
+tr.document {
+    background-color: lightpink;
+}
+
+tr.element {
+    background-color: lightsteelblue;
+}
+
+tr.attribute {
+    background-color: cyan;
+}
+
+tr.text {
+    background-color: greenyellow;
+}
+
+tr.parent {
+    background-color: plum;
+}
+
+tr.child {
+    background-color: blanchedalmond;
+}
+
+tr.sibling {
+    background-color: lightcyan;
+}
+
+tr.separator {
+    background-color: white;
+    height: 40px;
+}
+
+tr td:first-child {
+    white-space: nowrap;
+    vertical-align: top;
+}

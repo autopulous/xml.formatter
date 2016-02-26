@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns90:FindDimensionMemberKeysAllLRResponse
+                xmlns:ns3="urn:vertexinc:enterprise:suite:dimension:1:0"
+                xmlns:ns90="urn:vertexinc:enterprise:suite:dimension:limitedresults:messages:1:0">
+            <ns3:DimensionMemberKeys>
+                <ns3:BackedBy>DIMENSION</ns3:BackedBy>
+                <ns3:DimensionMemberKeyList>
+                    <ns3:DimensionMemberKey MultiValSetEnabledInd="true" dimensionMemberId="8">
+                        <ns3:DimensionKey dimensionId="45"/>
+                        <ns3:DisplayLabel>Charitable Contributions</ns3:DisplayLabel>
+                        <ns3:DisplayCode>CharitableContributn</ns3:DisplayCode>
+                        <ns3:DisplayDescription>Charitable Contributions</ns3:DisplayDescription>
+                        <ns3:ValueSetName>Default - AccountType</ns3:ValueSetName>
+                        <ns3:Name>Charitable Contributions</ns3:Name>
+                        <ns3:DimensionMemberStatus>ENABLED</ns3:DimensionMemberStatus>
+                        <ns3:EditableIndicator>true</ns3:EditableIndicator>
+                        <ns3:SourceSystem>Vertex</ns3:SourceSystem>
+                    </ns3:DimensionMemberKey>
+                    <ns3:DimensionMemberKey MultiValSetEnabledInd="true" dimensionMemberId="9">
+                        <ns3:DimensionKey dimensionId="45"/>
+                        <ns3:DisplayLabel>Capital Loss</ns3:DisplayLabel>
+                        <ns3:DisplayCode>CapitalLoss</ns3:DisplayCode>
+                        <ns3:DisplayDescription>Capital Loss</ns3:DisplayDescription>
+                        <ns3:ValueSetName>Default - AccountType</ns3:ValueSetName>
+                        <ns3:Name>Capital Loss</ns3:Name>
+                        <ns3:DimensionMemberStatus>ENABLED</ns3:DimensionMemberStatus>
+                        <ns3:EditableIndicator>true</ns3:EditableIndicator>
+                        <ns3:SourceSystem>Vertex</ns3:SourceSystem>
+                    </ns3:DimensionMemberKey>
+                    <ns3:DimensionMemberKey MultiValSetEnabledInd="true" dimensionMemberId="10">
+                        <ns3:DimensionKey dimensionId="45"/>
+                        <ns3:DisplayLabel>Other Carryforwards</ns3:DisplayLabel>
+                        <ns3:DisplayCode>OtherCarryforwards</ns3:DisplayCode>
+                        <ns3:DisplayDescription>Other Carryforwards</ns3:DisplayDescription>
+                        <ns3:ValueSetName>Default - AccountType</ns3:ValueSetName>
+                        <ns3:Name>Other Carryforwards</ns3:Name>
+                        <ns3:DimensionMemberStatus>ENABLED</ns3:DimensionMemberStatus>
+                        <ns3:EditableIndicator>true</ns3:EditableIndicator>
+                        <ns3:SourceSystem>Vertex</ns3:SourceSystem>
+                    </ns3:DimensionMemberKey>
+                    <ns3:DimensionMemberKey MultiValSetEnabledInd="true" dimensionMemberId="11">
+                        <ns3:DimensionKey dimensionId="45"/>
+                        <ns3:DisplayLabel>NOL</ns3:DisplayLabel>
+                        <ns3:DisplayCode>NOL</ns3:DisplayCode>
+                        <ns3:DisplayDescription>NOL</ns3:DisplayDescription>
+                        <ns3:ValueSetName>Default - AccountType</ns3:ValueSetName>
+                        <ns3:Name>NOL</ns3:Name>
+                        <ns3:DimensionMemberStatus>ENABLED</ns3:DimensionMemberStatus>
+                        <ns3:EditableIndicator>true</ns3:EditableIndicator>
+                        <ns3:SourceSystem>Vertex</ns3:SourceSystem>
+                    </ns3:DimensionMemberKey>
+                    <ns3:DimensionMemberKey MultiValSetEnabledInd="true" dimensionMemberId="12">
+                        <ns3:DimensionKey dimensionId="45"/>
+                        <ns3:DisplayLabel>Auto NOL</ns3:DisplayLabel>
+                        <ns3:DisplayCode>AutoNOL</ns3:DisplayCode>
+                        <ns3:DisplayDescription>Auto NOL</ns3:DisplayDescription>
+                        <ns3:ValueSetName>Default - AccountType</ns3:ValueSetName>
+                        <ns3:Name>Auto NOL</ns3:Name>
+                        <ns3:DimensionMemberStatus>ENABLED</ns3:DimensionMemberStatus>
+                        <ns3:EditableIndicator>true</ns3:EditableIndicator>
+                        <ns3:SourceSystem>Vertex</ns3:SourceSystem>
+                    </ns3:DimensionMemberKey>
+                    <ns3:DimensionMemberKey MultiValSetEnabledInd="true" dimensionMemberId="13">
+                        <ns3:DimensionKey dimensionId="45"/>
+                        <ns3:DisplayLabel>Credits</ns3:DisplayLabel>
+                        <ns3:DisplayCode>Credits</ns3:DisplayCode>
+                        <ns3:DisplayDescription>Credits</ns3:DisplayDescription>
+                        <ns3:ValueSetName>Default - AccountType</ns3:ValueSetName>
+                        <ns3:Name>Credits</ns3:Name>
+                        <ns3:DimensionMemberStatus>ENABLED</ns3:DimensionMemberStatus>
+                        <ns3:EditableIndicator>true</ns3:EditableIndicator>
+                        <ns3:SourceSystem>Vertex</ns3:SourceSystem>
+                    </ns3:DimensionMemberKey>
+                </ns3:DimensionMemberKeyList>
+                <ns3:RowLimited>false</ns3:RowLimited>
+                <ns3:NameDisplayIndicator>true</ns3:NameDisplayIndicator>
+            </ns3:DimensionMemberKeys>
+        </ns90:FindDimensionMemberKeysAllLRResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
